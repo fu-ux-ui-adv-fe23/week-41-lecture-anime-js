@@ -1,0 +1,23 @@
+ul {
+    margin: 2rem;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+
+    li {
+        padding: 1rem;
+    }
+
+    li:nth-of-type(1) {
+        background-color: blue;
+    }
+    li:nth-of-type(2) {
+        background-color: red;
+    }
+    li:nth-of-type(3) {
+        background-color: yellow;
+    }
+    li:nth-of-type(4) {
+        background-color: green;
+    }
+}
